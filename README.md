@@ -22,7 +22,7 @@ mvn install:install-file \
    -DgeneratePom=true
 
 
-
+## samples
 mvn install:install-file \
    -Dfile=./org.eclipse.swt.gtk.linux.x86_64-4.6.jar \
    -DgroupId=org.eclipse.swt.gtk.linux \
@@ -31,3 +31,10 @@ mvn install:install-file \
    -Dpackaging=jar \
    -DgeneratePom=true
    
+mvn install:install-file \
+   -Dfile=./swt-linux-x86_64-4.3.2.jar \
+   -DgroupId=org.eclipse.swt \
+   -DartifactId=swt-linux-x86_64 \
+   -Dversion=4.3.2 \
+   -Dpackaging=jar \
+   -DgeneratePom=true
